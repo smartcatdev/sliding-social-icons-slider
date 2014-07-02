@@ -1,0 +1,129 @@
+.contact-side li span{
+	float: left;
+	margin-left: 5px;
+}
+.contact-side li img{
+	text-align: right;
+		
+}
+.facebook .icon-facebook{
+	margin-right: 5px;
+}
+.contact-side{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.facebook:hover{background: #3B5998}
+.twitter:hover{background: #6BCFFF}
+.google-plus:hover{background: #DE4939}
+.pinterest:hover{background: #CE1829}
+.search:hover{background: orange}
+.linkedin:hover{background: #007bb6}
+.envelope:hover{background: #28944A }
+.phone:hover{background: #F5832A}
+.rss:hover{background: #FF6600}
+.youtube:hover{background:#CD332D}
+
+
+.contact-side li img{
+	text-align: right;
+		
+}
+.facebook .icon-facebook{
+	margin-right: 5px;
+}
+.contact-side{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.ssi-facebook:hover{background: #3B5998}
+.ssi-twitter:hover{background: #6BCFFF}
+.ssi-google-plus:hover{background: #DE4939}
+.ssi-pinterest:hover{background: #CE1829}
+.ssi-search:hover{background: orange}
+.ssi-linkedin:hover{background: #007bb6}
+.ssi-envelope:hover{background: #28944A }
+.ssi-phone:hover{background: #F5832A}
+.ssi-rss:hover{background: #FF6600}
+.ssi-youtube:hover{background:#CD332D}
+.ssi-gplus:hover{background:#D34836}
+.ssi-instagram:hover{background:#3f729b}
+.ssi-skype:hover{background:#00AFF0}
+.ssi-tumblr:hover{background:#639EC8}
+.ssi-foursquare:hover{background:#0894C9}
+.ssi-github:hover{background:#141414}
+.ssi-store:hover{background:#BCE63E}
+
+#ssi-contact-form{
+	position: fixed;
+	top: -500px;
+	min-width: 300px;
+	min-height: 200px;
+	border: 1px solid #f0f0f0;
+	box-shadow: 0 0px 5px #ffffff;
+	z-index: 9999;
+	
+	left: 50%;
+	display:none;
+
+}
+#ssi-contact-form h1.ssi-top-bar{
+	background: #333333;
+	padding: 10px;
+	color: #ffffff;
+	margin:0 0 10px 0;
+}
+#ssi-contact-form #ssi-close-x{
+	float:right;
+}
+#ssi-contact-form #ssi-close-x:hover{
+	cursor:pointer;
+}
+#ssi-contact-form .ssi-contact-content{
+	padding: 15px;
+}
+#ssi-contact-form input[type='text'],#ssi-contact-form input[type='email'],#ssi-contact-form textarea{
+	padding: 7px;
+	border: none !important;
+	border-radius: 5px;
+	transition:0.3s all ease;
+	-moz-transition:0.3s all ease;
+	-webkit-transition:0.3s all ease;
+}
+#ssi-contact-form input[type='text']:focus,#ssi-contact-form input[type='email']:focus,#ssi-contact-form textarea:focus{
+
+	outline: 0;
+	box-shadow: 0 0 5px #333333;
+}
+#ssi-contact-form input[type='submit']{
+	padding: 7px;
+	background: #ffffff !important;
+	color: #333333 !important;
+	border: none !important;
+	float:right;
+	transition:0.3s all ease;
+	-moz-transition:0.3s all ease;
+	-webkit-transition:0.3s all ease;
+	border-radius: 5px;
+}
+#ssi-contact-form input[type='submit']:hover{
+	background: #333333 !important;
+	color: #ffffff !important;
+}
+#ssi-dim{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	z-index: 9998;
+	top:0;left:0;
+	display:none;
+}
+
+@media(max-width: 600px){
+    #ssi-absolute{
+        display: none;
+    }
+}
