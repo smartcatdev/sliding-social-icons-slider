@@ -1,10 +1,10 @@
 <?php
 /*
-Plugin Name: Sliding Social Icons Pro
+Plugin Name: Sliding Social Icons
 Plugin URI: http://smartcatdesign.net/sliding-social-icons-free-wordpress-plugin/
 Description: Sliding Social Icons plugin that creates a social media bar on the left of your site dynamically, with smooth hover effects and links.
 Author: smartcat
-Version: 2.0
+Version: 1.6
 Author URI: http://smartcatdesign.net
 contact: info@smartcatdesign.net
 */
@@ -49,6 +49,7 @@ function sc_social_slider_register_options() {
             add_option($option_name, $option_value);
         } else {
             update_option($option_name, addslashes($_POST[$option_name]));
+//            delete_option($option_name);
         }
     }
 }

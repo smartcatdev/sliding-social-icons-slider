@@ -32,9 +32,9 @@
                                 value="left" <?php if ("left" == get_option('sc_social_slider_position')) echo 'selected="selected"'; ?>>
                                 left
                             </option>
-                            <option
-                                value="right" <?php if ("right" == get_option('sc_social_slider_position')) echo 'selected="selected"'; ?>>
-                                right
+                            <option disabled="disabled"
+                                value="right">
+                                right - Pro Version
                             </option>
                         </select>
                     </td>

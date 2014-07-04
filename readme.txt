@@ -1,30 +1,25 @@
 === Plugin Name ===
 Sliding Social Icons
 Contributors: smartcat
-Donate link: www.smartcatdesign.net 
+Donate link: http://smartcatdesign.net/donate/
 Tags: social,icon,sidebar,icons,jquery,widget,sliding icon,social bar,sliding panel,facebook,slide,twitter,pinterest,linkedin,call,email,foursquare,github,tumblr,skype,shopping,cart,store
 Requires at least: 3.2
-<<<<<<< HEAD
 Tested up to: 3.91
 Stable tag: 1.54
-=======
-Tested up to: 3.81
-Stable tag: 2.0
->>>>>>> d43d9c60847b2e61d209db380b90282d974fa37a
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Version 2 is out! Wordpress Sliding Social Icons Plugin will create a widget of icons to link to your social media sites that slide into the screen.
+Wordpress Sliding Social Icons Plugin will create a widget of icons to link to your social media sites that slide into the screen, and adds a slide-in widget to use with your form shortcode
 
 == Description ==
-WordPress Sliding Widgets Plugin will help your to create a sliding icon list dynamically where you can place on your website. The icons slide when you the user hovers over it.
+WordPress Sliding Widgets Plugin will help your to create a sliding icon list dynamically where you can place on your website. The icons slide into the screen when you hover over them.
+This plugin also allows you to enter a shortcode for a contact form or newsletter or any other shortcode, shows up in a sliding screen
 
 [Demo](http://smartcatdesign.net/sliding-social-icons-free-wordpress-plugin/)
 
 The settings menu allows you to easily choose which icons you want by putting the URL of your Facebook, Twitter, Pinterest, Youtube, Linkedin, Phone Number and Email pages.
 
 == Installation ==
-
 1. Download the plugin then upload 'sliding-social-icons' folder to the '/wp-content/plugins/'  directory
    --OR--
    Download and install the plugin 
@@ -55,3 +50,7 @@ php error fix
 - bug fixes
 = 1.52 =
 - bug fixes
+= 1.6 =
+1. Changes to options screen
+2. updated pro version
+3. cleaned php bugs

@@ -85,6 +85,7 @@
     .width70{ width: 70%;}
     .width25{ width: 25% !important;}
     .width50{ width: 50%;}
+    .width100{ width: 100%;}
     .larger{ font-size: larger;}
     .bold{ font-weight: bold;}
     .editcursor{ cursor: text}
@@ -161,21 +162,22 @@
 
 <div id="wrapper">
     <div id="gopro">
-        <div class="left">
-            
+        <div class="left width50">  
             <h1><b>Sliding Social Icons</b></h1>
             <div>
-                <em>Why go pro? Pro version includes different layouts as well as the ability to change the location of the icons,
-                    it also adds more customization to the plugin
-                </em>
+                <em>Why go pro? The pro version allows you to change the widget location to the right side of the screen, and adds different templates to the widget</em>
             </div>
         </div>
-<!--        <div class="right">
+        <div class="right">
             <a href="http://smartcatdesign.net/wp-construction-mode-pro-wordpress-plugin/" target="_blank" class="button-primary" style="padding: 40px;line-height: 0;font-size: 20px">GO PRO NOW</a>
-        </div>-->
+        </div>
     </div>
     
     <div class="width25 right">
+        <p class="width100">
+            <img class="width100" src="<?php echo SC_SOCIAL_SLIDER_PATH; ?>images/smartcat_wordpress_plugins.png"/>
+        </p>
+        <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FSmartcatDesign&amp;width&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=35&amp;appId=233286813420319" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:35px;" allowTransparency="true"></iframe>
         <table class="widefat">
             <thead>
             <tr>
@@ -204,7 +206,7 @@
             </tr>
             <tr>
                 <td>
-                    <iframe src="//www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FSmartcatDesign&amp;width&amp;layout=button&amp;action=like&amp;show_faces=false&amp;share=false&amp;height=35&amp;appId=233286813420319" scrolling="no" frameborder="0" style="border:none; overflow:hidden; height:35px;" allowTransparency="true"></iframe>
+                    
                     My name is Bilal Hassan, from Kingston, Ontario, Canada. I am a web developer, and WordPress is my favorite framework. I love making plugins
                     that help you add cool and user-friendly features to your website. I also make WordPress themes.<br><br>
                     Take a look at my <a href="http://smartcatdesign.net">website</a> and other plugins<br><br>
