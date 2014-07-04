@@ -5,7 +5,7 @@ Donate link: http://smartcatdesign.net/donate/
 Tags: social,icon,sidebar,icons,jquery,widget,sliding icon,social bar,sliding panel,facebook,slide,twitter,pinterest,linkedin,call,email,foursquare,github,tumblr,skype,shopping,cart,store
 Requires at least: 3.2
 Tested up to: 3.91
-Stable tag: 1.54
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -18,6 +18,10 @@ This plugin also allows you to enter a shortcode for a contact form or newslette
 [Demo](http://smartcatdesign.net/sliding-social-icons-free-wordpress-plugin/)
 
 The settings menu allows you to easily choose which icons you want by putting the URL of your Facebook, Twitter, Pinterest, Youtube, Linkedin, Phone Number and Email pages.
+
+[Pro Version](http://smartcatdesign.net/product/sliding-social-widgets-pro/)
+
+Allows you to change the location of the menu and different templates
 
 == Installation ==
 1. Download the plugin then upload 'sliding-social-icons' folder to the '/wp-content/plugins/'  directory
