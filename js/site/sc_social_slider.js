@@ -18,5 +18,5 @@ jQuery(document).ready(function () {
             jQuery("#ssi-dim").fadeOut(300)
         })
     });
-    jQuery(".ssi-contact-content").append("<p style='float:right;font-size:12px;'>powered by <a href='http://www.smartcatdesign.net'>Smartcat</a></p>")
+//    jQuery(".ssi-contact-content").append("<p style='float:right;font-size:12px;'>powered by <a href='http://www.smartcatdesign.net'>Smartcat</a></p>")
 });

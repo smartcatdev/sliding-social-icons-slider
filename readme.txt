@@ -4,8 +4,13 @@ Contributors: smartcat
 Donate link: www.smartcatdesign.net 
 Tags: social,icon,sidebar,icons,jquery,widget,sliding icon,social bar,sliding panel,facebook,slide,twitter,pinterest,linkedin,call,email,foursquare,github,tumblr,skype,shopping,cart,store
 Requires at least: 3.2
+<<<<<<< HEAD
 Tested up to: 3.91
 Stable tag: 1.54
+=======
+Tested up to: 3.81
+Stable tag: 2.0
+>>>>>>> d43d9c60847b2e61d209db380b90282d974fa37a
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
