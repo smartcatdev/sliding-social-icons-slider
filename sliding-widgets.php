@@ -9,13 +9,6 @@ Author URI: http://smartcatdesign.net
 contact: info@smartcatdesign.net
 */
 
-
-//include("libs/class.plugin.php");
-
-//$wpbs_plugindir = str_replace('\\','/',dirname(__FILE__));
-//$wpbs_plugin = new ahm_plugin(end(explode('/',$wpbs_plugindir)));
-//define('wpbs__DIR',$wpbs__plugindir);
-
 if(!defined('SC_SOCIAL_SLIDER_PATH'))
     define('SC_SOCIAL_SLIDER_PATH',plugin_dir_url(__FILE__));
 

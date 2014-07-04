@@ -4,16 +4,17 @@ Contributors: smartcat
 Donate link: www.smartcatdesign.net 
 Tags: social,icon,sidebar,icons,jquery,widget,sliding icon,social bar,sliding panel,facebook,slide,twitter,pinterest,linkedin,call,email,foursquare,github,tumblr,skype,shopping,cart,store
 Requires at least: 3.2
-Tested up to: 3.81
+Tested up to: 3.91
 Stable tag: 1.54
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Wordpress Sliding Social Icons Plugin will create a widget of icons to link to your social media sites that slide into the screen.
-== Description ==
+Version 2 is out! Wordpress Sliding Social Icons Plugin will create a widget of icons to link to your social media sites that slide into the screen.
 
+== Description ==
 WordPress Sliding Widgets Plugin will help your to create a sliding icon list dynamically where you can place on your website. The icons slide when you the user hovers over it.
-<h3><a href="http://smartcatdesign.net/sliding-social-icons-free-wordpress-plugin/">Live Demo</a></h3> 
+
+[Demo](http://smartcatdesign.net/sliding-social-icons-free-wordpress-plugin/)
 
 The settings menu allows you to easily choose which icons you want by putting the URL of your Facebook, Twitter, Pinterest, Youtube, Linkedin, Phone Number and Email pages.
 
