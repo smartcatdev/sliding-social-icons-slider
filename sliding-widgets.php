@@ -59,7 +59,7 @@ add_action('admin_init', 'sc_social_slider_activation_redirect');
 function sc_social_slider_activation_redirect() {
     if (get_option('sc_social_slider_activation_redirect', false)) {
         delete_option('sc_social_slider_activation_redirect');
-        wp_redirect(admin_url() . 'edit.php?post_type=team_member&page=sc_social_slider_settings');
+        wp_redirect(admin_url() . 'admin.php?page=wpbs_panel');
     }
 }
 
