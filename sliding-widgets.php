@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Sliding Social Icons
+Plugin Name: Sliding Social Icons Pro
 Plugin URI: http://smartcatdesign.net/sliding-social-icons-free-wordpress-plugin/
 Description: Sliding Social Icons plugin that creates a social media bar on the left of your site dynamically, with smooth hover effects and links.
 Author: smartcat
@@ -8,13 +8,6 @@ Version: 2.0
 Author URI: http://smartcatdesign.net
 contact: info@smartcatdesign.net
 */
-
-
-//include("libs/class.plugin.php");
-
-//$wpbs_plugindir = str_replace('\\','/',dirname(__FILE__));
-//$wpbs_plugin = new ahm_plugin(end(explode('/',$wpbs_plugindir)));
-//define('wpbs__DIR',$wpbs__plugindir);
 
 if(!defined('SC_SOCIAL_SLIDER_PATH'))
     define('SC_SOCIAL_SLIDER_PATH',plugin_dir_url(__FILE__));
@@ -29,23 +22,23 @@ function sc_social_slider() {
 function sc_social_slider_register_options() {
     // declare options array
     $sc_social_slider_options = array(
-        'sc_social_slider_facebook' => 'grid',
-        'sc_social_slider_gplus' => 'yes',
-        'sc_social_slider_youtube' => 'yes',
-        'sc_social_slider_linkedin' => 'yes',
-        'sc_social_slider_email' => 'yes',
-        'sc_social_slider_shortcode' => 'yes',
-        'sc_social_slider_twitter' => 'yes',
-        'sc_social_slider_instagram' => 'yes',
-        'sc_social_slider_phone' => 'yes',
-        'sc_social_slider_pinterest' => 'yes',
-        'sc_social_slider_skype' => 'yes',
-        'sc_social_slider_foursquare' => 'yes',
-        'sc_social_slider_github' => 'yes',
-        'sc_social_slider_tumblr' => 'yes',
-        'sc_social_slider_store' => 'yes',
+        'sc_social_slider_facebook' => 'https://www.facebook.com/SmartcatDesign',
+        'sc_social_slider_gplus' => 'https://www.facebook.com/SmartcatDesign',
+        'sc_social_slider_youtube' => '',
+        'sc_social_slider_linkedin' => 'https://www.facebook.com/SmartcatDesign',
+        'sc_social_slider_email' => '',
+        'sc_social_slider_shortcode' => '[shortcode]',
+        'sc_social_slider_twitter' => '',
+        'sc_social_slider_instagram' => '',
+        'sc_social_slider_phone' => '',
+        'sc_social_slider_pinterest' => '',
+        'sc_social_slider_skype' => '',
+        'sc_social_slider_foursquare' => '',
+        'sc_social_slider_github' => '',
+        'sc_social_slider_tumblr' => '',
+        'sc_social_slider_store' => '',
         'sc_social_slider_position' => 'left',
-        'sc_social_slider_background' => '#404040',
+        'sc_social_slider_background' => '#9BD3CA',
         'sc_social_slider_color' => '#ffffff',
         'sc_social_slider_margin' => '100',
         'sc_social_slider_switch' => 1,
@@ -66,7 +59,7 @@ add_action('admin_init', 'sc_social_slider_activation_redirect');
 function sc_social_slider_activation_redirect() {
     if (get_option('sc_social_slider_activation_redirect', false)) {
         delete_option('sc_social_slider_activation_redirect');
-        wp_redirect(admin_url() . 'edit.php?post_type=team_member&page=sc_social_slider_settings');
+        wp_redirect(admin_url() . 'admin.php?page=wpbs_panel');
     }
 }
 
